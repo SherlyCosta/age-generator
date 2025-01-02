@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Age and Table Generator</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<form name="f1">
+    <h1>Age Calculator</h1>
+    <label>Enter your DOB (MM/DD/YYYY):</label>
+    <input type="text" name="t1" placeholder="MM/DD/YYYY" /> 
+    <label>Result:</label>
+    <input type="text" name="res" class="result" readonly />
+    <input type="button" value="Age in Days" onclick="calAgeInDays()" />
+    <input type="button" value="Year, Month, Days" onclick="calAge()" />
+    <input type="button" value="Age in Months" onclick="calmonths()" />
+    <input type="button" value="Age in Days" onclick="caldays()" />
+</form>
+<script src="index.js"></script>
+</body>
+</html>
+
